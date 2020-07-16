@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">  
+  <test name="注册">       
+    <classes>
+      <class name="com.chen.cases.ResgisterCases"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="登录">       
+    <classes>
+      <class name="com.chen.cases.LoginCases"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="充值">       
+    <classes>
+      <class name="com.chen.cases.RechargeCases"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="新增项目">       
+    <classes>
+      <class name="com.chen.cases.AddCases"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  </suite> <!-- Suite -->
+<!-- 放在不同Test下，参数就不共享，代码更加灵活 -->
